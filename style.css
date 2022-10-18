@@ -375,3 +375,116 @@ footer p {
         margin: auto;
     }
 }
+
+
+.overlay{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 5% 3% 5% 0;
+    padding: 7% 1%
+}
+.container1{
+    width: 300px;
+    height: 400px;
+    background: url(image/1.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin: 0 10px;
+    transform: translateY(-100px);
+}
+
+.container2{
+    width: 300px;
+    height: 400px;
+    background: url(image/2.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin: 0 10px;
+
+}
+
+.container3{
+    width: 300px;
+    height: 400px;
+    background: url(image/3.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin: 0 10px;
+    transform: translateY(-100px);
+}
+
+.container4{
+    width: 300px;
+    height: 400px;
+    background: url(image/4.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin: 0 10px;
+
+}
+
+.big-heading{
+    font-family: 'Libre Bodoni', serif;
+    font-weight: 400;
+    padding-bottom: 60px;
+}
+
+.title_heading{
+    margin: auto;
+    left: 50px;
+    color: azure;
+}
+
+.title{
+    background-color: #9900F0;
+    text-align: left;
+    padding-bottom: 5%;
+}
+
+.title-image{
+    position: relative;
+    z-index: -1;
+}
+
+.title-section{
+    position: relative;
+    top: 17px;
+    left: 20px;
+    z-index: 1;
+}
+
+
+/* about */
+
+#about{
+    position: relative;
+    z-index: 1;
+    margin: 7% 5%;
+}
+
+.about_image{
+    width: 40%;
+    height: 50%;
+    margin: 20px;
+}
+
+.about-box{
+    padding: 10px;
+    font-size: medium;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.feature-title{
+    font-family: 'EB Garamond', serif;
+}
+
+.about-para{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    font-weight: normal;
+    font-style: italic;
+    padding-bottom: 60px;
+    text-align: center;
+}
